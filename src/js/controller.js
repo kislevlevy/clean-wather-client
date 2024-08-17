@@ -1,9 +1,9 @@
 'use-strict';
 
 // Imports:
-import { fetchForecast, toDOM } from './model';
-import { moveMap } from './map';
-import { numToDays } from './config';
+import { fetchForecast } from './model.js';
+import { moveMap } from './map.js';
+import { numToDays } from './config.js';
 
 // Query Selectors:
 const modal = document.querySelector('.modal-forecast');

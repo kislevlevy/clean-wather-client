@@ -1,7 +1,6 @@
 'use-strict';
 
 // Imports:
-import axios from 'axios';
 import { FORECAST_API_KEY, FORECAST_API_URL } from './config.js';
 
 // Api logic:
